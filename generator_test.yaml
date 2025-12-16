@@ -1,0 +1,33 @@
+generators:
+  - total_capacity: 30
+    marginal_cost: 20
+    ramp_up: 10
+    ramp_down: 10
+    min_up: 2
+    min_down: 5
+  - total_capacity: 200
+    marginal_cost: 25
+    ramp_up: 10
+    ramp_down: 10
+    min_up: 2
+    min_down: 5
+  - total_capacity: 70
+    marginal_cost: 55
+    ramp_up: 10
+    ramp_down: 10
+    min_up: 2
+    min_down: 5
+  - total_capacity: 170
+    marginal_cost: 75
+    ramp_up: 10
+    ramp_down: 10
+    min_up: 2
+    min_down: 5
+  - total_capacity: 200
+    marginal_cost: 0
+    ramp_up: 10
+    ramp_down: 10
+    min_up: 2
+    min_down: 5
+    capacity_forecast: [.5,.8,.2,.8,.2,.4,.5,.6,.8,.7,.7,.5,.5,.4,.6,.8,.9,.7,.7,.8,.5,.4,.5,.4,.3,.2]
+    
